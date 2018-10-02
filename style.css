@@ -1,0 +1,174 @@
+img{
+	width: 24%;
+}
+
+body{
+	background-color: white;
+}
+
+.header{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.header a{
+	font-family: arial;
+	padding: 1px;
+}
+
+ul input{
+	font-size: 15px;
+}
+
+.signbutton{
+	background-color: #3498db;
+}
+
+input[type="submit"]{
+	width: 75px;
+	height: 30px;
+	color: white;
+	border: medium none;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	margin: 5px;
+	font-size: 15px;
+}
+
+
+.location{
+	font-size: 10px;
+}
+
+.header a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
+
+.foooter{
+	display: flex;
+	flex-direction: row;
+}
+
+.autre{
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+	left: 0;
+	right:0;
+	bottom: 1%;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 4px;
+
+}
+
+.pub{
+	background-color: #f1f2f6;
+	display: flex;
+	justify-content: flex-start;
+	position: absolute;
+	left: 0;
+	right:0;
+	bottom: 1%;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	margin-bottom: -7px;
+
+}
+
+.mada{
+	background-color: #f1f2f6;
+	display: flex;
+	justify-content: flex-start;
+	position: absolute;
+	left: 0;
+	right:0;
+	bottom: 9%;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	margin-bottom: -7px;
+
+}
+
+hr{
+	display: flex;
+	justify-content: flex-start;
+	position: absolute;
+	left: 0;
+	right:0;
+	bottom:7%;
+}
+
+.google{
+	display: flex;
+	justify-content: center;
+}
+
+img{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 26%;
+}
+
+.text{
+	display: flex;
+	position: absolute;
+	top: 46%;
+	width: 50%;
+	align-items: center;
+	margin-left: -25%;
+	height: 7%;
+	box-shadow: 0px 0px 1px 0px;
+	border: medium none;
+	background: transparent; 
+	padding-left: 1%;
+}
+
+.bouton_1{
+	position: absolute;
+	left: 40%;
+	right: 0;
+	top: 55%;
+}
+
+.bouton_2{
+	position: absolute;
+	left: 50%;
+	right: 0;
+	top: 55%;
+}
+
+.text:hover{
+	box-shadow: 0px 1px 3px 0px;
+}
+
+.paragraphe a{
+	color: blue;
+	text-decoration: underline;
+	font-size: 12px;
+}
+.paragraphe p{
+	font-size: 12px;
+}
+.paragraphe{
+	margin-top: 35px;
+	margin-bottom: 30px;
+	position: absolute;
+	top: 55%;
+	left: 41.5%;
+	right: 0;
+}
